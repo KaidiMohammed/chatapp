@@ -1,0 +1,16 @@
+{
+  "name": "jscript-utils",
+  "version": "1.0.1",
+  "description": "a set of javascript utile functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "utils",
+    "functions"
+  ],
+  "author": "kamoman",
+  "license": "MIT"
+}
