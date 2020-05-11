@@ -6,7 +6,6 @@ It contains the io socket server.
 in order to run the server, run the commands bellow : 
 1) npm install
 2) npm start
-Go to : http://localhost:4001 (by default)
 
 ### The second folder : NextChat 
 It contains the next js chat application.
