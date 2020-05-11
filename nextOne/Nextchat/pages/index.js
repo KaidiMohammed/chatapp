@@ -48,7 +48,7 @@ function App() {
         <thead>
           <tr>
             <th> User name </th>
-            <th> Connection time </th>
+            <th> Connection Date </th>
           </tr>
         </thead>
         <tbody>
