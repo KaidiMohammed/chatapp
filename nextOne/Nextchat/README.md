@@ -15,7 +15,7 @@ In order to run the application, run the commands bellow :
 2) npm run dev
 Go to : http://localhost:9000 (by default)
 
-###Description
+### Description
 NextChat is a simple react-based chat application.
 Each client join the chat can send messages to the other members.
 The library Socket.IO is used for bi-directional communication between clients.

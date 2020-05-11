@@ -63,7 +63,7 @@ function App() {
       <h3 className="d-flex justify-content-center"> User : {loggedUser?.userName} </h3>
       <div style={{ borderStyle: "inset" }}>
         <h2 className="d-flex justify-content-center"> Chat </h2>
-        {recMsg.listMsg?.map(msgInfo => { return (<div className="d-flex justify-content-center" key={77 * Math.random()}> <b>{msgInfo.userName} </b> :  {msgInfo.msg} <small style={{ marginLeft: "18px", color: "blue", marginTop: "5px" }}> {msgInfo.time} </small> </div>) })}
+        {recMsg.listMsg?.map((msgInfo, index) => { return (<div className="d-flex justify-content-center" key={index}> <b>{msgInfo.userName} </b> :  {msgInfo.msg} <small style={{ marginLeft: "18px", color: "blue", marginTop: "5px" }}> {msgInfo.time} </small> </div>) })}
       </div>
       <div className="d-flex justify-content-center">
         <Input style={{ width: "300px", display: "inline" }} id="inputmsg" onChange={(event) => setMsg(event.target.value)} />
