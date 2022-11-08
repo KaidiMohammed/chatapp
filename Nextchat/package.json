@@ -10,7 +10,7 @@
   "dependencies": {
     "babel-plugin-module-resolver": "^4.0.0",
     "bootstrap": "^4.4.1",
-    "next": "9.3.6",
+    "next": "13.0.2",
     "next-sass": "^1.0.3",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
